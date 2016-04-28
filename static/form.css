@@ -1,0 +1,140 @@
+
+/* ---------- Form Styles --------- */
+
+/* Form Color Styles */
+#form {
+	background-color: #00628B;
+}
+
+/* Form Font Colors */
+#form h1 {
+    color: #FF9900;
+}
+
+#form h2 {
+    color: #002cd8;
+}
+
+#form h3 {
+    color: #81A594;
+}
+
+#form strong {
+    color: #00d8ac;
+}
+
+#form p {
+    color: #81A594;
+}
+
+#form ol {
+    color: #d84000;
+    font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+#form input {
+    color: #0052CC;
+}
+
+#form label {
+    color: #81A594;
+}
+
+/* Form Sizing Styles */
+#form {
+	width: 50%;
+	margin: 3em auto;
+	padding: 1.75em;
+}
+
+/* Form Font Styling */
+#form h1 {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+#form h2 {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+#form h3 {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	text-align: center;
+}
+
+#form strong {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+
+#form p {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 1em;
+}
+
+#form label {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: .85em;
+}
+
+/* Form Font Align */
+.test{text-align:center}
+.test ol{
+	display:inline-block;
+	text-align:left;
+}
+* html .test ol{display:inline}/* ie6 inline-block fix */
+*+html .test ol{display:inline}/* ie7 inline-block fix */
+
+/* Border and Shadow Styles */
+#form {
+	border: .2em solid #888;
+	border-radius: .1em;
+	box-shadow: 0em .1em 1em #666;
+}
+
+/* ---------- Input Styles --------- */
+
+/* Input Background Color */
+input[type="submit"] {
+	background-color: #d84000;
+}
+
+/* Input Font Styles */
+input[type="submit"] {
+	font-family: Helvetica, sans-serif;
+	font-size: .75em;
+}
+
+/* Input Submit Margin and Padding */
+input[type="submit"] {
+	margin-right: 0em;
+	padding: .30em .1em;
+	color: #fff;
+}
+
+/* Input Text Width, Margin, and Padding */
+input[type="text"] {
+	width: 12em;
+	margin: 1em 0;
+	padding: .2em 0;
+	background-color: #E6E6DC;
+}
+
+/* Border Styles */
+input[type="submit"] {
+border: .10em solid #d84000;
+border-radius: .1em;
+box-shadow: 0 .15em .4em #666;
+}
+
+input[type="submit"]:hover {
+	background-color: #E6E6DC;
+}
